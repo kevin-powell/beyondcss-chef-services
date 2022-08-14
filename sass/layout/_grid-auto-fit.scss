@@ -1,3 +1,5 @@
+@use "../abstracts/" as *;
+
 .grid-auto-fit {
   display: grid;
   grid-gap: var(--grid-gap, $grid-gap);
